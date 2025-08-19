@@ -97,7 +97,7 @@ Bash mani_skill/examples/motionplanning/xarm6/collectdata.sh
 
 Detailed task list based on ManiSkill improvements:
 
-| Task Name | Status | Supported Robots | Key Improvements | Success Rate Enhancement |
+| Task Name | Status | Supported Robots | Key Improvements | Details |
 |-----------|--------|------------------|------------------|-------------------------|
 | [PullCube-v1](#pullcube-v1) | ✅ | All | Motion planning adjustment | Final point elevation to avoid bottom collision |
 | [PlaceSphere-v1](#placesphere-v1) | ✅ | All | RRT* algorithm | Path optimization |

@@ -101,13 +101,13 @@ Detailed task list based on ManiSkill improvements:
 |-----------|--------|------------------|------------------|-------------------------|
 | [PullCube-v1](#pullcube-v1) | ✅ | All | Motion planning adjustment | Final point elevation to avoid bottom collision |
 | [PlaceSphere-v1](#placesphere-v1) | ✅ | All | RRT* algorithm | Path optimization |
-| [PullCubeTool-v1](#pullcubetool-v1) | ✅ | XArm6/7 | Gripper parameter optimization | Force increased to 10N |
+| [PullCubeTool-v1](#pullcubetool-v1) | ✅ | All | Gripper parameter optimization | Force increased to 10N |
 | [PickCube-v1](#pickcube-v1) | ✅ | All | Success condition simplification | Only need to lift object |
 | [StackCube-v1](#stackcube-v1) | ✅ | All | Gripper control optimization | Closure set to 0.5 |
-| [DrawTriangle-v1](#drawtriangle-v1) | ✅ | XArm6 | Specialized tool development | Stick end-effector |
-| [DrawSVG-v1](#drawsvg-v1) | ✅ | XArm6 | Step extension | max_steps→1000 |
+| [DrawTriangle-v1](#drawtriangle-v1) | ✅ | All | Specialized tool development | Stick end-effector |
+| [DrawSVG-v1](#drawsvg-v1) | ✅ | All | Step extension | max_steps→1000 |
 | [LiftPegUpright-v1](#liftpegupright-v1) | ✅ | All | Motion parameter fine-tuning | Angle optimization π/15 |
-| [PegInsertionSide-v1](#peginsertionside-v1) | ✅ | XArm6/7 | Initialization adaptation | Custom qpos |
+| [PegInsertionSide-v1](#peginsertionside-v1) | ✅ | All | Initialization adaptation | Custom qpos |
 | [PushCube-v1](#pushcube-v1) | ✅ | All | Workspace optimization | Target range reduction |
 
 ## 🔧 Detailed Task Implementation
